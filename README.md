@@ -1,2 +1,2 @@
 # Outline
- Generate a webbook for yoru code, game, or anything!
+ Generate a web book for yoru code, game, or anything!
