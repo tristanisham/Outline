@@ -7,3 +7,7 @@ Outline is a sister/sucsessor application to [Wingman](https://github.com/trista
 One of the nicest parts of developing rust is the near-standard "book" design for documentation. Thanks to sites like [Docs.rs](https://docs.rs) and [The Rust Book](https://doc.rust-lang.org/book/) its easy to go through documentation and other long digital first resources without obstructions. Yes, it'd be easy to make your own, but creating a nice generator to help promote this as the documentation format (and providing tools to export and share your web book) is another step in the journey of improving documentation on the web.
 
 ![](https://i.ibb.co/bPw3tZf/image.png)
+
+## How to use Outline
+### Command Line
+### On Server

@@ -35,5 +35,4 @@ fn outline(args: Vec<String>) {
         },
         None => run!("php", "./outline.phar"),
     }
-    run!("php", "./outline.phar", "build");
 }
