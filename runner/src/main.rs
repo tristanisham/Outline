@@ -1,4 +1,5 @@
 use std::env;
+use std::time::{Instant};
 // use std::fmt;
 /// * `$program` - Required name of program
 #[macro_export]
@@ -13,12 +14,14 @@ macro_rules! run {
 }
 
 fn main() {
+    let timer = Instant::now();
     let argv: Vec<String> = env::args().collect();
     if cfg!(target_os = "windows") {
         outline(argv);
     } else {
         outline(argv);
     };
+    println!("Outline complete in: {}s", timer.elapsed().as_secs_f32());
 }
 
 fn outline(args: Vec<String>) {
